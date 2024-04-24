@@ -1,0 +1,18 @@
+.button{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CSS Styles
+  
+  INLINE STYLING- It does'nt conflict with Global Style conflicts.less maintaiable at large apps.It reduces the readability of the components.Not great for complex styling like Responsive CSS. Better with minimum styling. Great for Isolated components such as Like Button, Subscribe Button.
+
+  MODULES STYLING: Great for individual components
+
+
+  
+  */
