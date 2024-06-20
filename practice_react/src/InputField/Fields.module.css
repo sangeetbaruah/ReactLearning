@@ -1,0 +1,14 @@
+.formlabel{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#fname,#lname,#email{
+    padding: 8px;
+    border:none;
+    border-radius: 5px;
+    
+}
