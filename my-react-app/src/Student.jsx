@@ -8,15 +8,17 @@
 
 import PropTypes from 'prop-types'
 
-
+//props is a javascript object
 function Student(props){
 
-    // When we send Key:Value pair to a component, they are all stored in the props Object. to get the value associated with the key of the Object we do props.name_of_key. For eg- when we sent "Spongebob from App.jsx to Student.jsx, it got stored in props. So to gett that we have to do like that"
+    // When we send Key:Value pair to a component, they are all stored in the props Object. to get the value associated with the key of the Object we do props.name_of_key. For eg- when we sent "Spongebob from App.jsx to Student.jsx, it got stored in props. So to get that we have to do like that"
 
     return(
         <div className="student">
             <p>Name: {props.name}</p>
             <p>Age: {props.age}</p>
+            
+            {/* boolean does'nt appear in JSX, so it can be used like this */}
             <p>Student: {props.isStudent ? "Yes" : "No"}</p>
         </div>
     );

@@ -6,8 +6,11 @@
 // import Card from "./Card";
 
 // import Student from "./Student";
+import Counter from "./Counter";
 import List from "./List";
 import MyComponent from "./MyComponent";
+import OnChangeHandler from "./OnChangeHandler";
+import ReactHooks from "./ReactHooks";
 import UserGreeting from "./UserGreeting";
 
 function App() {
@@ -27,7 +30,7 @@ function App() {
 
     // <Button/>
     // <>
-
+                                            //PROPS
     //   <Student name="SpongeBob"
     //     age={30}
     //     isStudent={true}
@@ -45,7 +48,7 @@ function App() {
     //   <Student/>  
 
     // </>
-
+//CONDITIONAL RENDERING
     // <UserGreeting 
     
     // isLoggedIn = {true} 
@@ -58,9 +61,14 @@ function App() {
 
     // <List />
 
-    
-    
-    <MyComponent/>
+    // <MyComponent/>
+
+    // <ReactHooks/>
+
+    // <OnChangeHandler/>
+
+    <Counter/>
+   
   );
 
 }
