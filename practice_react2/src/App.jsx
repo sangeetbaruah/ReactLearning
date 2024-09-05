@@ -8,8 +8,15 @@ import Props1 from './LearnProps/Props1'
 import Profile from './LearnProps/Profile'
 import ArrayProps from './LearnProps/ArrayProps'
 import HeaderProps from './LearnProps/HeaderProps'
+import FunctionProps from './LearnProps/FunctionProps'
+import DestructHeader from './LearnProps/DestructHeader'
+
 
 function App() {
+
+  // const sayHi = () => {
+  //   alert('Hi')
+  // }
 
   const contents = {
     welcome: 'Welcome to 30 Days Of React',
@@ -19,8 +26,8 @@ function App() {
       firstName: 'Asabeneh',
       lastName: 'Yetayeh',
     },
-    date: new Date(),
-  };
+    date: new Date()
+  }
 
   return (
     <>
@@ -47,9 +54,19 @@ function App() {
          skills={['HTML', 'CSS', 'JavaScript']}
       /> */}
 
-      
-{/* Passing the above object as props in the below Component */}
-      <HeaderProps data = {contents}/>
+
+      {/* Passing the above object as props in the below Component */}
+      {/* <HeaderProps data = {contents}/> */}
+
+
+      {/* <FunctionProps text="Say Hi" onClick={sayHi}/> */}
+
+
+{/* Destructuring props */}
+      <DestructHeader data = {contents}/>
+
+
+
     </>
   );
 }
